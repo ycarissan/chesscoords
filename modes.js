@@ -24,6 +24,10 @@ function buttonValidModeFactory() {
 	return button;
 }
 
+function getMode() {
+	return select.value;
+}
+
 function modeMAJ(val){
 	console.log(val);
 	sauveMode(val);
